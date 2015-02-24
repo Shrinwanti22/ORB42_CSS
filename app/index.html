@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ORB 42</title>
+    <link rel="stylesheet" href="font-awesome-4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/drag-n-drop.css">
+    <link rel="stylesheet" type="text/css" href="css/rectangle.css">
+    <link rel="stylesheet" type="text/css" href="css/drop.css">
+    <script>
+        var app = {};
+    </script>
+
+</head>
+
+<body onkeydown="app.hotspot.escapeKey(event)">
+
+    <header>
+    <ul class="menu">
+      <li id="new" class="button">NEW
+      <span><i class="fa fa-file-o"></i></span></li>
+      <li id="save" class = "button">UPLOAD
+      <span><i class="fa fa-cloud-upload"></i></span></li>
+      <li id="previewButton" class="button">PREVIEW
+      <span><i class="fa fa-eye"></i></span></li>
+    </ul>
+    </header>
+    <!-- <input type="button" value="save" id="save" class = "button">
+    <input type="button" value="preview" id="previewButton" class = "button"> -->
+   <!--  <div id="drop_zone">Drag and Drop the files here..</div> -->
+    <div id="list"><h2>Images</h2></div>
+    <ul id="dropdown">
+    </ul>
+
+    <div class="preview" id="preview" onkeypress="app.hotspot.escapeKey(event)"></div>
+
+
+    <script type="text/javascript" src="http://api.filepicker.io/v1/filepicker.js"></script>
+    <script src="https://api.filepicker.io/v1/filepicker_debug.js"></script>
+    <script type="text/javascript" src="js/appdom.js"></script>
+    <script type="text/javascript" src="js/apprectangle.js"></script>
+    <script type="text/javascript" src="js/apphotspot.js"></script>
+    <script type="text/javascript" src="js/appmongo.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/json.js"></script>
+    <script type="text/javascript" src="js/imageFile.js"></script>
+    <script type="text/javascript" src="js/save.js"></script>
+    <script type="text/javascript" src="js/dom.js"></script>
+</body>
+
+</html>

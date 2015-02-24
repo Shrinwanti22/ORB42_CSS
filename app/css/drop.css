@@ -1,0 +1,51 @@
+body{
+   font-family: Helvetica;
+ }
+ ul#dropdown{
+   z-index: 999999;
+   width: 250px;
+   overflow: -moz-scrollbars-vertical; 
+   overflow-y: scroll;
+   padding-left: 0;
+   position:absolute;
+   top: 0;
+   left:0;
+   display: none;
+   border-radius: 3px;
+
+   
+   
+   box-shadow: 0 0 2px black;
+   
+   min-width: 100px;
+   
+ }
+ ul#dropdown li{
+   list-style: none;
+   padding: 7px 5px 7px 5px;
+   background-color:white;
+   overflow: hidden;
+   text-align: center;
+   font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+   font-size: 14px;
+   position: relative;
+
+ }
+ ul#dropdown li div{
+   float: left;
+   width: 30%;
+   border:0 solid;
+   border-radius: 2px; 
+ }
+ ul#dropdown li p{
+   float: left;
+   width: 70%;
+   margin:0;
+   font-size: 15px;
+   padding-top: 5px;
+ }
+ ul#dropdown li:hover{
+    background-color: rgb(111,118,127);
+    color:#fff;
+    
+ }
